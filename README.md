@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github-readme-stats-eight-weld-87.vercel.app/api?username=zbee&count_private=true&show_icons=true&theme=dracula&line_height=24&bg_color=22272e&hide_border=true&show=prs_merged" />
+  <img src="https://github-readme-stats-eight-weld-87.vercel.app/api?username=zbee&count_private=true&show_icons=true&theme=dracula&line_height=24&bg_color=22272e&hide_border=true" />
   <img src="https://github-readme-stats-eight-weld-87.vercel.app/api/top-langs/?username=zbee&theme=dracula&layout=compact&langs_count=8&bg_color=22272e&hide_border=true&card_width=275" />
 </div>
 
