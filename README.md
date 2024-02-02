@@ -4,11 +4,12 @@
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/os-Pop!__OS-informational?style=for-the-badge&logo=Pop!_OS&logoColor=79DAFA&color=DC6385&labelColor=22272e" />
-  <img src="https://img.shields.io/badge/os-Windows-informational?style=for-the-badge&logo=windows10&logoColor=79DAFA&color=DC6385&labelColor=22272e" />
   <img src="https://img.shields.io/badge/ide-IntelliJ-informational?style=for-the-badge&logo=intellij-idea&logoColor=79DAFA&color=DC6385&labelColor=22272e" />
   <img src="https://img.shields.io/badge/cloud-Heroku-informational?style=for-the-badge&logo=heroku&logoColor=79DAFA&color=DC6385&labelColor=22272e" />
   <img src="https://img.shields.io/badge/cloud-AWS-informational?style=for-the-badge&logo=amazonecs&logoColor=79DAFA&color=DC6385&labelColor=22272e" />
+</div>
+
+<div align="center">
   <img src="https://img.shields.io/badge/lang-c%23-informational?style=for-the-badge&logo=csharp&logoColor=79DAFA&color=DC6385&labelColor=22272e" />
   <img src="https://img.shields.io/badge/lang-php-informational?style=for-the-badge&logo=php&logoColor=79DAFA&color=DC6385&labelColor=22272e" />
   <img src="https://img.shields.io/badge/lang-python-informational?style=for-the-badge&logo=python&logoColor=79DAFA&color=DC6385&labelColor=22272e" />
