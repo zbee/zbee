@@ -10,8 +10,8 @@
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/lang-c%23-informational?style=for-the-badge&logo=csharp&logoColor=79DAFA&color=DC6385&labelColor=22272e" />
-  <img src="https://img.shields.io/badge/lang-php-informational?style=for-the-badge&logo=php&logoColor=79DAFA&color=DC6385&labelColor=22272e" />
+  <img src="https://img.shields.io/badge/lang-c%23-informational?style=for-the-badge&logo=.net&logoColor=79DAFA&color=DC6385&labelColor=22272e" />
   <img src="https://img.shields.io/badge/lang-python-informational?style=for-the-badge&logo=python&logoColor=79DAFA&color=DC6385&labelColor=22272e" />
   <img src="https://img.shields.io/badge/lang-c%2B%2B-informational?style=for-the-badge&logo=cplusplus&logoColor=79DAFA&color=DC6385&labelColor=22272e" />
+  <img src="https://img.shields.io/badge/lang-php-informational?style=for-the-badge&logo=php&logoColor=79DAFA&color=DC6385&labelColor=22272e" />
 </div>
