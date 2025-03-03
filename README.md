@@ -1,3 +1,4 @@
+<!-- See https://github.com/zbee/img-proxy for modifying these dynamic images -->
 <div align="center">
     <img src="https://images.zbee.codes/gh-overall-stats" />
     <img src="https://images.zbee.codes/gh-language-stats" />
