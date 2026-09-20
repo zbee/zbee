@@ -17,6 +17,7 @@ jobs:
       contents: write
 
     strategy: # Run all steps 4 times, for each card and variant
+      max-parallel: 1 # Prevent races from breaking commits
       matrix:
         include:
           - card: stats
