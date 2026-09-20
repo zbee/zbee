@@ -39,7 +39,7 @@ jobs:
         run: |
           VARKEY="${{ matrix.variant }}_only"
           OPTIONS=$(jq -c --arg v "$VARKEY" --arg c "${{ matrix.card }}" \
-            '.base * .[$v] * .[$c]' .github/stats-card-options.json)
+            '.base * .[$v] * .[$c]' .github/stats-cards-options.json)
           echo "OPTIONS=$OPTIONS" >> "$GITHUB_ENV"
           
       - name: Generate ${{ matrix.card }} card (${{ matrix.variant }})
