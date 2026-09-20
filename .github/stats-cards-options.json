@@ -22,6 +22,8 @@
     "custom_title": "GitHub Stats"
   },
   "top-langs": {
-    "custom_title": "Most Used Languages"
+    "custom_title": "Most Used Languages",
+    "layout": "compact",
+    "langs_count": 8
   }
 }
