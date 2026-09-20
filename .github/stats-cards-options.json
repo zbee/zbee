@@ -1,5 +1,6 @@
 ﻿{
   "base": {
+    "username": "zbee",
     "rank_icon": "percentile",
     "show_icons": true,
     "include_all_commits": true,
