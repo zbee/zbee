@@ -1,0 +1,60 @@
+﻿#file: noinspection UndefinedParamsPresent,SpellCheckingInspection
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+# github-workflows: enable
+
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Daily
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    strategy: # Run all steps 4 times, for each card and variant
+      matrix:
+        include:
+          - card: stats
+            variant: dark
+            path: assets/stats_dark.svg
+          - card: stats
+            variant: light
+            path: assets/stats_light.svg
+          - card: top-langs
+            variant: dark
+            path: assets/langs_dark.svg
+          - card: top-langs
+            variant: light
+            path: assets/langs_light.svg
+
+    steps:
+      - uses: actions/checkout@v7
+        
+      - name: Build card options
+        run: |
+          VARKEY="${{ matrix.variant }}_only"
+          OPTIONS=$(jq -c --arg v "$VARKEY" --arg c "${{ matrix.card }}" \
+            '.base * .[$v] * .[$c]' .github/stats-card-options.json)
+          echo "OPTIONS=$OPTIONS" >> "$GITHUB_ENV"
+          
+      - name: Generate ${{ matrix.card }} card (${{ matrix.variant }})
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: ${{ matrix.card }}
+          options: ${{ env.OPTIONS }}
+          path: ${{ matrix.path }}
+          core_version: 2.2.0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/*.svg
+          git commit -m "Update ${{ matrix.card }} card (${{ matrix.variant }})" || exit 0
+          git push

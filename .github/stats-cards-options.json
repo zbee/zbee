@@ -1,0 +1,27 @@
+﻿{
+  "base": {
+    "rank_icon": "percentile",
+    "show_icons": true,
+    "include_all_commits": true,
+    "bg_color": "00000000",
+    "hide_border": true,
+    "owner": "zbee,FF-Strike,MobaHinted,Just-Some-Plugins",
+    "role": "OWNER,ORGANIZATION_MEMBER,COLLABORATOR"
+  },
+  "dark_only": {
+    "theme": "catppuccin_mocha",
+    "title_color": "b7bdf8",
+    "icon_color": "c6a0f6"
+  },
+  "light_only": {
+    "theme": "catppuccin_latte",
+    "title_color": "7287fd",
+    "icon_color": "8839ef"
+  },
+  "stats": {
+    "custom_title": "GitHub Stats"
+  },
+  "top-langs": {
+    "custom_title": "Most Used Languages"
+  }
+}
