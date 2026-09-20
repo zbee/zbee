@@ -1,6 +1,15 @@
+
 <div align="center">
-  <img src="https://github-readme-stats-eight-weld-87.vercel.app/api?username=zbee&cache_seconds=86400&custom_title=GitHub%20Stats&count_private=true&show_icons=true&line_height=24&hide_border=true&bg_color=24273a&text_color=cad3f5&icon_color=c6a0f6&title_color=b7bdf8" />
-  <img src="https://github-readme-stats-eight-weld-87.vercel.app/api/top-langs/?username=zbee&cache_seconds=86400&layout=compact&langs_count=8&hide_border=true&card_width=275&hide=hack,procfile,cmake&size_weight=0.6&count_weight=0.4&bg_color=24273a&text_color=cad3f5&icon_color=c6a0f6&title_color=b7bdf8" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)"
+        srcset="https://github-stats-extended.vercel.app/api?username=zbee&rank_icon=percentile&custom_title=GitHub%20Stats&show_icons=true&include_all_commits=true&theme=catppuccin_mocha&bg_color=00000000&title_color=b7bdf8&icon_color=c6a0f6&hide_border=true"
+      /><img height="200" align="center"
+          src="https://github-stats-extended.vercel.app/api?username=zbee&rank_icon=percentile&custom_title=GitHub%20Stats&show_icons=true&include_all_commits=true&theme=catppuccin_latte&bg_color=00000000&title_color=b7bdf8&icon_color=c6a0f6&hide_border=true" /></picture>
+    <picture>
+      <source media="(prefers-color-scheme: dark)"
+        srcset="https://github-stats-extended.vercel.app/api/top-langs?username=zbee&layout=compact&langs_count=8&theme=catppuccin_mocha&bg_color=00000000&title_color=b7bdf8&icon_color=c6a0f6&hide_border=true"
+      /><img height="200" align="center"
+          src="https://github-stats-extended.vercel.app/api/top-langs?username=zbee&layout=compact&langs_count=8&theme=catppuccin_latte&bg_color=00000000&title_color=b7bdf8&icon_color=c6a0f6&hide_border=true" /></picture>
 </div>
 
 <div align="center">
